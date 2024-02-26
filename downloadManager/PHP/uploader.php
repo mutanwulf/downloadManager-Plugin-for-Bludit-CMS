@@ -1,7 +1,7 @@
 
 
 <div class="row justify-content-between align-items-center py-3 border-bottom mb-4">
-<h3><?php echo $L->get('illegalFiletype'); ?>  🚀</h3>
+<h3><?php echo $L->get('descUpload'); ?>  🚀</h3>
 
 <a class="btn btn-primary btn-sm" href="<?php echo DOMAIN_ADMIN; ?>configure-plugin/downloadManager">Button settings</a>
 </div>
