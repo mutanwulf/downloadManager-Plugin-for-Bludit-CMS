@@ -86,7 +86,7 @@ class downloadManager extends Plugin
         $url = HTML_PATH_ADMIN_ROOT . 'plugin/' . $pluginName;
 
         $html = '<a id="current-version" class="nav-link" href="' . $url . '?upload">DM Upload 🚀</a>';
-        $html .= '<a id="current-version" class="nav-link" href="' . $url . '">DownloadManager 🚀</a>';
+        $html .= '<a id="current-version" class="nav-link" href="' . $url . '">DM List 🚀</a>';
         return $html;
     }
 
