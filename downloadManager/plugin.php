@@ -49,16 +49,16 @@ class downloadManager extends Plugin
             }
 
             if (move_uploaded_file($tempFile, $targetFile)) {
-                $response['message'] = "Plik został przesłany pomyślnie.";
-                $response['status'] = "success";
+                $response['message'] = "Plik został przesłany pomyślnie."; // Plik został przesłany pomyślnie.
+                $response['status'] = "".$L->get('success')."";
                 $response['fileName'] = $fileName; // Zwracanie nowej nazwy pliku
             } else {
-                $response['message'] = "Wystąpił błąd podczas przesyłania pliku.";
-                $response['status'] = "error";
+                $response['message'] = "Wystąpił błąd podczas przesyłania pliku."; // Wystąpił błąd podczas przesyłania pliku.
+                $response['status'] = $L->get('error');
             }
         } else {
-            $response['message'] = "Brak przesłanego pliku.";
-            $response['status'] = "error";
+            $response['message'] = "Brak przesłanego pliku."; // Brak przesłanego pliku.
+            $response['status'] = $L->get('error');
         }
 
         if (isset($_POST['deleteFile'])) {
