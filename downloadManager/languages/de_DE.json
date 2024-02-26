@@ -6,5 +6,7 @@
 	},
 	"text": "Text",
     	"error": "error",
-    	"success": "success"
+    	"success": "success",
+	"illegalFiletype": "Filetype not accepted.",
+    	"descUpload": "Upload files to yours Download Manager"
 }
