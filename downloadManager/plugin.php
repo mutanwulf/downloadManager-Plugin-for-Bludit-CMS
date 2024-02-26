@@ -50,7 +50,7 @@ class downloadManager extends Plugin
 
             if (move_uploaded_file($tempFile, $targetFile)) {
                 $response['message'] = "Plik został przesłany pomyślnie."; // Plik został przesłany pomyślnie.
-                $response['status'] = "".$L->get('success')."";
+                $response['status'] = $L->get('success');
                 $response['fileName'] = $fileName; // Zwracanie nowej nazwy pliku
             } else {
                 $response['message'] = "Wystąpił błąd podczas przesyłania pliku."; // Wystąpił błąd podczas przesyłania pliku.
