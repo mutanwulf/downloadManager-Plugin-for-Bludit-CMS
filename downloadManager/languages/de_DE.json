@@ -5,6 +5,6 @@
 		"description": "Erstellen Sie einfache Download-Links mit Kurzlink und einfachen Dateimanagement."
 	},
 	"text": "Text",
-	"reject": "Ablehnen",
-	"accept": "Annehmen"	
+    	"error": "error",
+    	"success": "success"
 }
